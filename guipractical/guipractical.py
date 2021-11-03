@@ -135,21 +135,13 @@ def update(frame_number): #in this function we work out the stopping condition.
         print("stopping condition")
 
     for i in range(num_of_agents):
-        matplotlib.pyplot.scatter(agents_list[i].x,agents_list[i].y) #This adds to the plot
-        #print(agents_list[i][0],agents_list[i][1])
+        #Add agents to the plot
+        matplotlib.pyplot.scatter(agents_list[i].x,agents_list[i].y)
+        
 
+#Frames = 10 stops the code running after 10 iterations. 
+animation = matplotlib.animation.FuncAnimation(fig, update, interval=1, repeat=False, frames=10)
 
-#def gen_function(b = [0]): #the animation thingy looks in this function and finds the carry on
-#    a = 0
-#    global carry_on #Not actually needed as we're not assigning, but clearer
-#    #Make a while loop that will continue iterating if it is true
-#    while (a < 10) & (carry_on) :
-#        #Return value of a and wait for the next call
-#        yield a
-#        a = a + 1
-
-animation = matplotlib.animation.FuncAnimation(fig, update, interval=1, repeat=False, frames=10) #This stops it running after 10 frames(iterations)
-#animation = matplotlib.animation.FuncAnimation(fig, update, frames=gen_function, repeat=False) #link back to def gen_function
 
 #Give each agent a unique name
 def getID():
@@ -162,7 +154,7 @@ print("Final agents")
 end = time.time()
 
 #Print time as a calculation of time recorded at end minus time recorded at 
-# beginning. 
+# beginning
 print ("time" + str(end - start))
 
 #Stop the code running 

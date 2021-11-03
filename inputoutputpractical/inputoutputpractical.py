@@ -13,7 +13,7 @@ import agentframework
 import csv 
 import time 
 
-#Start the clock to measure how long the code takes to run 
+#Record time before running program
 start = time.time()
 
 #setting the random seed for reproducibility, produce same results. 
@@ -84,7 +84,8 @@ matplotlib.pyplot.show()#this shows the plot
 for i in range(num_of_agents):
     print("agents", agents_list[i])
 
-#At end of program end the timer
+#Print time as a calculation of time recorded at end minus time recorded at 
+# beginning
 end = time.time()
 
 #print the time taken

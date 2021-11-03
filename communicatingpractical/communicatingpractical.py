@@ -13,8 +13,8 @@ import agentframework
 import csv 
 import time 
 
-#Start the clock to measure how long the code takes to run 
-start = time.time()
+#Record the time at the beginning of the code
+start = time.time() 
 
 #setting the random seed for reproducibility, produce same results. 
 random.seed(0)
@@ -96,7 +96,8 @@ matplotlib.pyplot.show()
 #Print agents after all the moving, eating, sharing and shuffling
 print("Final agents")
 
-#At end of program end the timer
+##Print time as a calculation of time recorded at end minus time recorded at 
+# beginning
 end = time.time()
 
 #print the time taken
