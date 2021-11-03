@@ -24,9 +24,11 @@ Preferably enter '%matplotlib qt' into the kernel so that the plots show fully a
         In this practical, we also get the sheep to shuffle. In order to ensure we can see the sheep shuffling, we assign an ID to them.     
   ### 4. GUI Practical
          The aim of this practical was to give a Graphical User Interface (GUI) to our program. The aim here is to have our program open in a separate window with a menu. 
-         This menu should dropdown to offer a 'Run Model' option.
-         In this practical, the program is animated so that all the stages carried out in previous practicals can be seen. This program features a stopping condition which makes          the animation stop when the random number is less than 0.1.       
+         This menu should dropdown to offer a 'Run Model' and a 'Quit Model' option.
+         In this practical, the program is animated so that all the stages carried out in previous practicals can be seen. This program features a stopping condition which makes          the animation stop after 10 iterations.     
 ## Sources
 https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd 
+https://bootswatch.com/
+
 
 
