@@ -27,8 +27,9 @@ Preferably enter '%matplotlib qt' into the kernel so that the plots show fully a
          This menu should dropdown to offer a 'Run Model' and a 'Quit Model' option.
          In this practical, the program is animated so that all the stages carried out in previous practicals can be seen. This program features a stopping condition which makes          the animation stop after 10 iterations.     
 ## Sources
-https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd 
-https://bootswatch.com/
+         https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd 
+         
+         https://bootswatch.com/ (website css templates) 
 
 
 
