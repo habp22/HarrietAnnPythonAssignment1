@@ -17,7 +17,8 @@ Preferably enter '%matplotlib qt' into the kernel so that the plots show fully a
         The sheep are mapped onto the environment. 
         The code gets the sheep to move around in a for-loop through a dictated number of iterations. 
         The code also gets the sheep to eat the environment and store values from what it eats. 
-        At the end, sheep who have been greedy and ended up with a store of more than 100 values will be sick and empty their stores. This will be reflected in the plot of the           environment.        
+        At the end, sheep who have been greedy and ended up with a store of more than 100 values will be sick and empty their stores.
+        This will be reflected at the end on the plot of the environment. 
   ### 3. Communicating Practical
         Again, this practical contains a framework and the main program. 
         The aim of this practical is to get the sheep to interact with one another by sharing resources between them. 
