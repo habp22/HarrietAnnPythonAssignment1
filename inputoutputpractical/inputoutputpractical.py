@@ -45,9 +45,9 @@ print("cols", cols)
 
 #Create an empty list for our agents to go into.
 agents_list = []  
-##Assign an integer variable as the number of agents (10).
+#Assign an integer variable as the number of agents (10).
 num_of_agents = 10
-##Assign an integer variable as the number of agents (100) (how many times something runs)
+#Assign an integer variable as the number of iterations (100) (how many times something runs)
 num_of_iterations = 100
 #Create a neighbourhood
 neighbourhood = 20
