@@ -45,15 +45,15 @@ print("cols", cols)
 
 #Create an empty list for our agents to go into.
 agents_list = []  
-##Assign an integer variable as the number of agents (10).
+#Assign an integer variable as the number of agents (10).
 num_of_agents = 10
-##Assign an integer variable as the number of agents (100) (how many times something runs)
+#Assign an integer variable as the number of iterations (100) (how many times something runs)
 num_of_iterations = 100
 #Create a neighbourhood
 neighbourhood = 20
  
 #make a for loop where random numbers are assigned to our agents.
-#for each of the 10 agents (coordinates), random numbers are assigned and 
+#for each of the 10 agents, random numbers are assigned and 
 # these are put into the list.
 for i in range(num_of_agents):
     #agents.append is what adds the agents to the list.
