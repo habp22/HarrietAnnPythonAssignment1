@@ -130,10 +130,6 @@ def update(frame_number): #in this function we work out the stopping condition.
     #for i in range(num_of_agents):    
         agents_list[i].share_with_neighbours(neighbourhood) 
         
-    if random.random() < 0.1: #if the call to random number is less than 0.1, we see below that we have a stopping condition. 
-        carry_on = False #here is our stopping condition. 
-        print("stopping condition")
-
     for i in range(num_of_agents):
         #Add agents to the plot
         matplotlib.pyplot.scatter(agents_list[i].x,agents_list[i].y)
