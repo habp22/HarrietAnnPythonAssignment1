@@ -42,7 +42,7 @@ print(a.x)
 print(a.y)
 
 #Make a for loop where random numbers are assigned to our agents.
-#For each of the 10 agents (coordinates), random numbers are assigned and these
+#For each of the 10 agents, random numbers are assigned and these
 # are put into the list.
 for i in range(num_of_agents):
     #Agents_list.append is what adds the agents to the list.
